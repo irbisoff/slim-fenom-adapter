@@ -1,6 +1,6 @@
 # slim-fenom-adapter
 
-Адаптер для подключения шаблонизатора **Fenom** к микрофреймворку **Slim**.
+Адаптер для подключения шаблонизатора [Fenom](https://github.com/fenom-template/fenom) к микрофреймворку [Slim](https://github.com/slimphp/Slim).
 
 
 ## Установка
