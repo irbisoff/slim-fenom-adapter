@@ -10,10 +10,12 @@
 
 ## Использование
 
-    $app = new Slim([
-        'view' => new \Slim\View\FenomAdapter([/* Options */]),
-        'templates.path' => __DIR__ . '/View'
-    ]);
+```php
+$app = new Slim([
+    'view' => new \Slim\View\FenomAdapter([/* Options */]),
+    'templates.path' => __DIR__ . '/View'
+]);
+```
 
 
 ## Настройки
