@@ -96,7 +96,7 @@ class FenomAdapter extends View
 
     private $fenomInstance = null;
 
-    private function getFenomSingleton()
+    public function fenom()
     {
         if (is_null($this->fenomInstance))
         {
@@ -120,7 +120,7 @@ class FenomAdapter extends View
     public function render($template, $data = null)
     {
         $data = array_merge($this->data->all(), (array)$data);
-        $render = $this->getFenomSingleton()->fetch($template, $data);
+        $render = $this->fenom()->fetch($template, $data);
 
         return $render;
     }
